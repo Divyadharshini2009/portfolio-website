@@ -5,7 +5,7 @@ const body = document.body;
 // =====================
 // 🌐 BACKEND API URL
 // =====================
-const API_URL = "https://opulent-sniffle-pjqj9g6rr954c47g-5000.app.github.dev/api/projects";
+const API_URL = "https://portfolio-website-djd1.onrender.com/api/projects";
 
 // =====================
 // ✨ Typed Animation
