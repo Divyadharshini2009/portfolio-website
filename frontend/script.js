@@ -133,16 +133,3 @@ window.addEventListener('load', () => {
   revealOnScroll();
   loadProjects(); // 🔥 IMPORTANT: load backend data
 });
-fetch("https://opulent-sniffle-pjqj9g6rr954c47g-5000.app.github.dev/api/projects", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-        name: "My First Project",
-        tech: "HTML, CSS, JS"
-    })
-})
-.then(res => res.json())
-.then(data => console.log("Added:", data))
-.catch(err => console.log(err));
