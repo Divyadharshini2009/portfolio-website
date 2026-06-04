@@ -520,3 +520,54 @@ body.dark .social-links li a {
   0%, 100% { opacity: 0.7; }
   50% { opacity: 0; }
 }
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+  .header-inner {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 0;
+  }
+
+  .nav-links {
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .theme-toggle {
+    margin-top: 8px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .projects-grid,
+  .skills-grid,
+  .contact-grid,
+  .education-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card,
+  .skill-card,
+  .contact-card,
+  .social-card,
+  .education-card {
+    padding: 1.5rem;
+  }
+}

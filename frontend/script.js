@@ -78,7 +78,7 @@ async function loadProjects() {
     const res = await fetch(API_URL);
     const data = await res.json();
 
-    const container = document.getElementById("projects");
+    const container = document.getElementById("projects-container");
 
     if (!container) return;
 
